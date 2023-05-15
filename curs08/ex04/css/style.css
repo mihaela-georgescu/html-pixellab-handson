@@ -46,6 +46,13 @@
   color:white;
 }
 
+.section-title {
+  background-color: white;
+  position:sticky;
+  top: 8px;
+  text-align: center;
+  z-index: 1;
+}
 
 
 
