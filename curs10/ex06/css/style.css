@@ -1,0 +1,20 @@
+.main a:hover {
+  text-decoration: none;
+}
+
+.main li:nth-of-type(2n) a:hover {
+  color: red;
+}
+
+h1:hover {
+  text-decoration: underline;
+}
+
+p i {
+  position:relative;
+}
+
+p:hover i {
+  right: -2px;
+  top: -2px;
+}

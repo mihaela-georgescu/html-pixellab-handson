@@ -1,0 +1,19 @@
+input[type='checkbox']:checked + label {
+  color: green;
+}
+
+input[type='radio']:checked + label {
+  background: lightgreen;
+  color: #fff;
+  text-shadow: 1px 1px 4px green;
+  display: inline-block;
+  padding: 2px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 4px inset green;
+  cursor: pointer;
+}
+
+select option:checked {
+  font-weight: bold;
+  color: red;
+}
