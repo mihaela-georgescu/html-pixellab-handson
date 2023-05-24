@@ -36,66 +36,67 @@
     </p>
   </div>
 
-  <form class="container">
-
+  <div class="container">
     <div class="row">
-      <fieldset class="col-6">
-        <legend class="pb-4">Login to our website</legend>
-        <div class="row">
-          <div class="input-group">
-            <label
-              for="email"
-              class="w-50"
-            >*Email:</label>
+      <form class="col-6">
+        <fieldset>
+          <legend class="pb-4">Login to our website</legend>
+          <div class="row">
+            <div class="input-group">
+              <label
+                for="email"
+                class="w-50"
+              >*Email:</label>
 
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email"
-              class="form-control"
-              required
-            >
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                class="form-control"
+                required
+              >
+            </div>
+
+            <div class="input-group">
+              <label
+                for="password"
+                class="w-50"
+              >*Password:</label>
+
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+                class="form-control"
+                required
+              >
+            </div>
           </div>
 
-          <div class="input-group">
-            <label
-              for="password"
-              class="w-50"
-            >*Password:</label>
-
-            <input
-              type="password"
-              name="password"
-              id="password"
-              placeholder="Password"
-              class="form-control"
-              required
-            >
+          <div class="row">
+            <div class="offset-6 col-6">
+              <input
+                type="checkbox"
+                name="remember"
+                id="remember"
+                checked
+              >
+              <label for="remember">Remember me?</label>
+            </div>
           </div>
-        </div>
 
-        <div class="row">
-          <div class="offset-6 col-6">
-            <input
-              type="checkbox"
-              name="remember"
-              id="remember"
-              checked
-            >
-            <label for="remember">Remember me?</label>
-          </div>
-        </div>
+          <button
+            type="submit"
+            name="submit"
+            class="btn btn-primary"
+          >Login</button>
+        </fieldset>
+      </form>
 
-        <button
-          type="submit"
-          name="submit"
-          class="btn btn-primary"
-        >Login</button>
-      </fieldset>
-
-      <fieldset class="col-6">
-        <legend class="pb-4">Or try these fancier places:</legend>
+      <div class="col-6">
+        <p class="fs-4">Or try these fancier places:</p>
 
         <p>Note that links will open in new windows.</p>
 
@@ -125,10 +126,9 @@
             >https://www.linkedin.com</a>
           </li>
         </ul>
-      </fieldset>
+      </div>
     </div>
-  </form>
-
+  </div>
 </body>
 
 </html>
