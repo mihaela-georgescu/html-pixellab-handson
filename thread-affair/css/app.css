@@ -398,6 +398,11 @@ a {
   height: 100%;
   padding-left: 50px;
   position: relative;
+  align-items: flex-start;
+}
+
+.banner-main .banner-main-inner > div {
+  text-align: center;
 }
 
 .banner-main .banner-main-inner > div > h1 {
